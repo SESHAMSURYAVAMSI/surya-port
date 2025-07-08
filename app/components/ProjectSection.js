@@ -110,7 +110,7 @@ const ProjectSection = () => {
           <button
             onClick={() => handleProjectClick(project.id)}
             key={index}
-            className="bg-gray-800/30 backdrop-blur-sm rounded-lg p-6 border border-gray-700/50 hover:border-primary-500/50 transition-colors hover:shadow-sm text-left"
+            className="bg-gray-800/30 backdrop-blur-sm rounded-lg p-6 border border-gray-700/50 hover:border-purple-500/50 transition-colors hover:shadow-sm text-left"
           >
             <div className="flex flex-col h-full">
               <h3 className="text-lg font-semibold text-white mb-2">{project.title}</h3>
@@ -118,7 +118,7 @@ const ProjectSection = () => {
                 {project.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="px-2 py-0.5 text-xs rounded-full bg-primary-500/20 text-primary-200 border border-primary-500/30 "
+                    className="px-2 py-0.5 text-xs rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 "
                   >
                     {tag}
                   </span>
